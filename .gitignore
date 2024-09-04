@@ -1,0 +1,91 @@
+# Ignore Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+scrapped_data/
+*.csv
+*.json
+*.log
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore InfluxDB data files
+.data/
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.lcov
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore mypy type checker reports
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore JetBrains IDEs
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# Ignore Sublime Text project files
+*.sublime-project
+*.sublime-workspace
+
+# Ignore yarn lock file
+yarn.lock
+
+# Ignore npm debug log
+npm-debug.log*
