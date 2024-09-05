@@ -15,7 +15,6 @@ env/
 # Ignore data files
 scrapped_data/
 *.csv
-*.json
 *.log
 
 # Ignore Node.js modules
