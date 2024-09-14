@@ -941,7 +941,7 @@ function getAllExpiry() {
     // return expiries;
 
      // Hardcoded expiry date in the same format as the current code
-     const hardcodedExpiry = "2024-09-05";
+     const hardcodedExpiry = "2024-09-19";
 
      // Create an array with the hardcoded expiry date
      const expiries = [hardcodedExpiry];

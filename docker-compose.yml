@@ -25,6 +25,13 @@ services:
     environment:
       KAFKA_BOOTSTRAP_SERVERS: broker:29092
 
+  # linear_regression_processor:
+  #   build: ./linear_regression_processor
+  #   ports:
+  #     - "5679:5679"  # Debug port
+  #   networks:
+  #       - confluent
+
 
   zookeeper:
       image: confluentinc/cp-zookeeper:7.4.0

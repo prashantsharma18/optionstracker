@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 
 # InfluxDB configuration
 influxdb_url = "http://influxdb:8086"
-influxdb_token = "vqwL5iZLjcsNVs9I1vKYITaNj_uzPC45-XzyjNn4u8akFtMYClauQq0v8Z5ftgA6yUT5Auxf2sjwnz-K0U03ag=="
+influxdb_token = "NZ85_mYv4-f_Fm8OGHyinRY4oOlsUXyHt0uCU0TxVI9IYUcjFwX9jpIYbJjc_qM-oHs48FZ7RERV_E7HO1gpaw=="
 influxdb_org = "options"
 influxdb_bucket = "nifty"
 
