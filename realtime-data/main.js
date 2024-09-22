@@ -92,7 +92,7 @@ async function connectWebSocket(expiry) {
         if (message && message.token=="256265") {
 
             // Remove "CE" and "PE" nodes
-            removeUnwantedNodes(message);
+            //removeUnwantedNodes(message);
 
             // Convert the message to string and send it to Kafka
             const kafkaMessage = JSON.stringify(message);

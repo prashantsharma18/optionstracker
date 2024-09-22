@@ -25,6 +25,19 @@ services:
     environment:
       KAFKA_BOOTSTRAP_SERVERS: broker:29092
 
+  kafka_consumer_full:
+      build: ./kafka-consumer-full
+      ports:
+        - "5678:5678"  # Debug port
+        - "29092:29092"  # Kafka broker port
+      networks:
+          - confluent
+      depends_on:
+        - broker
+      environment:
+        KAFKA_BOOTSTRAP_SERVERS: broker:29092
+
+        
   # linear_regression_processor:
   #   build: ./linear_regression_processor
   #   ports:

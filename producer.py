@@ -4,10 +4,10 @@ from confluent_kafka import Producer
 
 # Kafka configuration
 KAFKA_BROKER = 'localhost:9092'
-KAFKA_TOPIC = 'topic_raw_options'
+KAFKA_TOPIC = 'nifty_full'
 
 # JSON file path
-JSON_FILE_PATH = '.data/256265-2024-09-26.json'
+JSON_FILE_PATH = 'data/256265-2024-08-29.json'
 
 def read_json_file(file_path):
     with open(file_path, 'r') as file:
